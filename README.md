@@ -10,7 +10,7 @@ Berdasarkan prinsip Terapi Perilaku Kognitif (CBT), chatbot ini dibangun dengan 
 
 **"Empati di Atas Segalanya."**
 
-Tujuan bot ini bukanlah untuk memberikan solusi instan, melainkan untuk memvalidasi emosi pengguna, mengajukan pertanyaan mendalam, dan secara proaktif menawarkan refleksi serta saran praktis untuk membantu proses penemuan diri.
+Chatbot ini dibuat sebagai latihan praktis sederhana untuk menerapkan prinsip komunikasi dari buku Feeling Good Together. Tujuannya adalah mengeksplorasi bagaimana validasi emosi dan pertanyaan reflektif dapat bekerja dalam suatu interaksi meskipun bot ini masih terbatas dan belum mampu memberikan solusi instan atau refleksi mendalam. Proyek ini berfokus pada pembelajaran dan eksperimen, sehingga interaksi yang dihasilkan lebih bersifat simulasi daripada terapi nyata.
 
 ## Konfigurasi & Menjalankan
 

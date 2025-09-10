@@ -115,7 +115,13 @@ class KnowledgeBase:
             'kesedihan': ['sedih', 'down', 'putus asa', 'hampa', 'kecewa', 'nangis', 'hancur', 'patah hati'],
             'kebingungan': ['bingung', 'tersesat', 'confused', 'tidak tahu', 'galau', 'bimbang', 'arah'],
             'kemarahan': ['marah', 'kesal', 'jengkel', 'frustrasi', 'benci', 'dongkol', 'muak'],
-        }
+            'kesepian': ['sendiri', 'sunyi', 'kesepian', 'tak ada teman', 'merasa sendiri'],
+            'trauma': ['trauma', 'kejadian buruk', 'masa lalu kelam', 'flashback', 'terluka'],
+            'demotivasi': ['tidak semangat', 'malas', 'tidak termotivasi', 'putus asa belajar', 'bingung tujuan'],
+            'rasa bersalah': ['bersalah', 'penyesalan', 'salahku', 'aku menyesal', 'harusnya tidak'],
+            'masalah keluarga': ['ayah', 'ibu', 'orang tua', 'adik', 'kakak', 'keluarga', 'rumah tangga'],
+            'kehilangan': ['meninggal', 'kehilangan', 'ditinggal', 'berduka', 'rindu orang tua']
+                }
 
         self.deep_inquiries = {
             'masalah hubungan': [
@@ -143,6 +149,42 @@ class KnowledgeBase:
                  "Jika kamu bisa mengubah satu hal tentang situasimu di kuliah saat ini, apa itu dan mengapa?",
                  "Seperti apa rasanya stres itu di tubuhmu? Di mana kamu paling merasakannya?",
                  "Apa yang biasanya kamu lakukan untuk mengatasi stres itu? Apakah cara itu membantu?"
+            ],
+            'kesepian': [
+                "Kapan kamu merasa paling kesepian akhir-akhir ini?",
+                "Apa yang biasanya kamu lakukan ketika rasa sepi itu muncul?",
+                "Adakah momen kecil yang membuatmu merasa sedikit lebih terhubung dengan orang lain?",
+                "Jika kamu bisa meminta seseorang untuk hadir, siapa yang paling ingin kamu temui?"
+            ],
+            'trauma': [
+                "Apakah ada momen tertentu dari masa lalu yang sering muncul kembali di pikiranmu?",
+                "Bagaimana perasaan tubuhmu saat memikirkan pengalaman itu?",
+                "Apakah ada hal kecil yang membantumu merasa lebih aman ketika kenangan itu datang?",
+                "Siapa orang yang paling kamu percaya untuk berbagi tentang pengalaman ini?"
+            ],
+            'demotivasi': [
+                "Kapan terakhir kali kamu merasa benar-benar bersemangat?",
+                "Hal kecil apa yang biasanya membuatmu merasa lebih hidup?",
+                "Adakah faktor tertentu yang menurutmu menguras motivasimu belakangan ini?",
+                "Kalau besok kamu bangun dengan energi penuh, apa hal pertama yang ingin kamu lakukan?"
+            ],
+            'rasa bersalah': [
+                "Apa yang membuatmu merasa bersalah sampai sekarang?",
+                "Jika temanmu melakukan hal yang sama, apa yang akan kamu katakan padanya?",
+                "Apakah rasa bersalah ini membantumu tumbuh, atau justru menahanmu?",
+                "Apa langkah kecil yang bisa kamu lakukan untuk memperbaiki situasi ini?"
+            ],
+            'masalah keluarga': [
+                "Bagaimana hubunganmu dengan anggota keluargamu belakangan ini?",
+                "Apa momen yang paling membuatmu merasa didukung oleh keluargamu?",
+                "Kalau bisa menyampaikan satu hal kepada keluargamu tanpa takut disalahpahami, apa itu?",
+                "Apa harapanmu tentang hubungan keluargamu di masa depan?"
+            ],
+            'kehilangan': [
+                "Apa kenangan terindahmu bersama orang yang kamu rindukan?",
+                "Bagaimana perubahan hidupmu setelah kehilangan itu?",
+                "Apakah ada cara khusus yang kamu lakukan untuk mengenang orang tersebut?",
+                "Kalau kamu bisa bicara sekali lagi dengannya, apa yang ingin kamu katakan?"
             ]
         }
         
@@ -161,6 +203,12 @@ class KnowledgeBase:
             'self-esteem rendah': "Sakit sekali rasanya ketika suara di dalam kepala kita sendiri menyerang diri kita. Terima kasih sudah berani membagikan perasaan yang sangat personal ini.",
             'kelelahan': "Tentu saja kamu merasa lelah. Beban yang kamu pikul itu nyata, dan kelelahan adalah sinyal bahwa kamu butuh jeda.",
             'stres akademik': "Tekanan akademik itu nyata dan sangat menguras energi. Wajar sekali jika kamu merasa stres dan terbebani.",
+            'kesepian': "Kesepian bisa terasa sangat menyakitkan, seolah tidak ada yang benar-benar memahami. Perasaanmu valid.",
+            'trauma': "Menghadapi trauma masa lalu bukan hal yang mudah. Aku menghargai keberanianmu untuk menceritakannya.",
+            'demotivasi': "Hilangnya motivasi adalah tanda tubuh dan pikiranmu sedang butuh jeda. Itu wajar dan manusiawi.",
+            'rasa bersalah': "Rasa bersalah bisa terasa sangat berat. Itu pertanda kamu punya hati nurani yang peka, bukan berarti kamu orang yang buruk.",
+            'masalah keluarga': "Konflik dalam keluarga bisa sangat kompleks dan menguras emosi. Wajar jika kamu merasa bingung atau terluka.",
+            'kehilangan': "Kehilangan orang tercinta adalah salah satu pengalaman paling berat dalam hidup. Perasaan berduka itu sangat manusiawi."
         }
         return validations.get(theme, f"Aku dengar kamu. Merasa {theme.replace('_', ' ')} itu pasti tidak mudah. Perasaanmu penting dan valid.")
 
@@ -170,6 +218,12 @@ class KnowledgeBase:
             'masalah hubungan': "Seringkali dalam konflik, kita terjebak dalam menyalahkan. Coba refleksikan: selain menyalahkan, apa satu hal kecil yang bisa kamu lakukan untuk merawat dirimu sendiri saat ini? Mungkin melakukan hobi yang sempat terlupakan, atau menghubungi teman yang bisa memberimu energi positif.",
             'self-esteem rendah': "Pikiran negatif seringkali terasa seperti fakta, padahal sebenarnya hanya 'opini' dari otak kita. Coba identifikasi tiga kualitas positif dalam dirimu, sekecil apapun itu. Menuliskannya bisa membantu melatih otak untuk melihat sisi lain dari dirimu.",
             'kelelahan': "Kelelahan yang menumpuk seringkali bukan hanya soal kurang tidur, tapi juga terkurasnya energi emosional. Mungkin akan membantu jika kamu menjadwalkan 'waktu istirahat tanpa rasa bersalah' selama 15-30 menit setiap hari, di mana kamu melakukan sesuatu yang kamu nikmati tanpa memikirkan kewajiban.",
+            'kesepian': "Mungkin cobalah menghubungi seseorang yang sudah lama tidak kamu ajak bicara, atau ikut komunitas kecil yang sesuai minatmu. Langkah kecil bisa membuatmu merasa lebih terhubung.",
+            'trauma': "Mungkin akan membantu jika kamu menuliskan pengalaman itu di jurnal pribadi. Menuliskan bisa menjadi cara aman untuk merangkul emosi yang sulit.",
+            'demotivasi': "Cobalah fokus pada satu tugas kecil yang bisa kamu selesaikan hari ini. Kadang momentum dibangun dari langkah kecil.",
+            'rasa bersalah': "Cobalah bedakan antara rasa bersalah yang membangun dan rasa bersalah yang menahanmu. Mana yang sedang kamu rasakan?",
+            'masalah keluarga': "Cobalah pilih waktu tenang untuk bicara dengan anggota keluargamu. Gunakan kalimat 'aku merasa...' daripada menyalahkan.",
+            'kehilangan': "Izinkan dirimu merasakan duka itu, tapi juga rayakan kenangan indah yang kamu miliki bersama orang tersebut."
         }
         return suggestions.get(theme, "Mengakui perasaan ini adalah langkah pertama yang sangat kuat. Teruslah bersikap baik pada dirimu sendiri.")
 

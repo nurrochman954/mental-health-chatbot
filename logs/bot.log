@@ -1,0 +1,110 @@
+2025-09-10 17:39:02,786 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-10 17:39:02,789 - discord.client - INFO - logging in using static token
+2025-09-10 17:39:10,052 - src.integrations.discord_bot - INFO - Setting up Mental Health Bot...
+2025-09-10 17:39:14,530 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 2d8e402d6ec40f39aadd3aae0fe0e91d).
+2025-09-10 17:39:16,696 - src.integrations.discord_bot - INFO - MentalHealthChatbot#7738 has connected to Discord!
+2025-09-10 17:46:16,733 - src.core.chatbot - INFO - User input: saya lagi merasa hilang arah
+2025-09-10 17:46:16,738 - src.core.chatbot - INFO - Bot response: Itu pasti tidak mudah. Apa yang Anda harapkan bisa berubah?
+2025-09-10 17:46:32,605 - src.core.chatbot - INFO - User input: saya pengen semangat seperti dulu lagi
+2025-09-10 17:46:32,617 - src.core.chatbot - INFO - Bot response: Saya ingin lebih memahami situasi Anda. Apa yang membuat ini penting bagi Anda?
+2025-09-10 17:46:46,942 - src.core.chatbot - INFO - User input: saya ingin cepat lulus kuliah
+2025-09-10 17:46:46,943 - src.core.chatbot - INFO - Bot response: Saya mendengar Anda. Bagaimana perasaan Anda tentang situasi ini?
+2025-09-10 17:46:56,670 - src.core.chatbot - INFO - User input: saya merasa lelah
+2025-09-10 17:46:56,681 - src.core.chatbot - INFO - Bot response: Menarik yang Anda sampaikan. Bisa ceritakan lebih detail tentang perasaan Anda?
+2025-09-10 17:47:14,595 - src.core.chatbot - INFO - User input: saya ingin melepaskan semua rasa kecewa saya
+2025-09-10 17:47:14,595 - src.core.chatbot - INFO - Bot response: Menarik yang Anda sampaikan. Bisa ceritakan lebih detail tentang perasaan Anda?
+2025-09-10 17:51:11,403 - src.core.chatbot - INFO - User input: tidak ada
+2025-09-10 17:51:11,405 - src.core.chatbot - INFO - Bot response: Saya mendengar Anda. Bagaimana perasaan Anda tentang situasi ini?
+2025-09-10 18:00:53,513 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 2d8e402d6ec40f39aadd3aae0fe0e91d.
+2025-09-10 18:34:55,735 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-10 18:34:55,736 - discord.client - INFO - logging in using static token
+2025-09-10 18:34:56,629 - src.integrations.discord_bot - INFO - Setting up Mental Health Bot...
+2025-09-10 18:34:57,416 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d56d10ba28e8d120207e250c223429cc).
+2025-09-10 18:34:59,416 - src.integrations.discord_bot - INFO - MentalHealthChatbot#7738 has connected to Discord!
+2025-09-10 18:34:59,417 - src.integrations.discord_bot - INFO - Bot is in 1 guilds
+2025-09-10 18:36:00,978 - src.core.chatbot - INFO - User input: halo
+2025-09-10 18:36:00,980 - src.core.chatbot - INFO - Bot response: Hai! Saya di sini untuk mendengarkan. Ada yang ingin Anda ceritakan tentang perasaan atau hubungan Anda?
+2025-09-10 18:36:09,049 - src.core.chatbot - INFO - User input: saya merasa lelah
+2025-09-10 18:36:09,050 - src.core.chatbot - INFO - Bot response: Kelelahan seringkali adalah sinyal bahwa kita perlu istirahat atau perubahan. Ceritakan lebih lanjut, apa yang membuat Anda merasa lelah?
+2025-09-10 18:36:22,422 - src.core.chatbot - INFO - User input: saya capek dengan tugas kuliah
+2025-09-10 18:36:22,423 - src.core.chatbot - INFO - Bot response: Kelelahan seringkali adalah sinyal bahwa kita perlu istirahat atau perubahan. Ceritakan lebih lanjut, apa yang membuat Anda merasa lelah?
+2025-09-10 18:36:47,258 - src.core.chatbot - INFO - User input: tugas kuliah
+2025-09-10 18:36:47,258 - src.core.chatbot - INFO - Bot response: Saya ingin lebih memahami situasi Anda. Apa yang membuat ini penting bagi Anda?
+2025-09-10 18:37:05,714 - src.core.chatbot - INFO - User input: karena hidup hanya sekali
+2025-09-10 18:37:05,715 - src.core.chatbot - INFO - Bot response: Saya mendengar Anda. Bagaimana perasaan Anda tentang situasi ini?
+2025-09-10 18:37:59,332 - src.core.chatbot - INFO - User input: saya pengen punya pacar
+2025-09-10 18:37:59,333 - src.core.chatbot - INFO - Bot response: Hmm, coba jelaskan lebih lanjut. Bagaimana hal ini mempengaruhi hubungan atau perasaan Anda?
+2025-09-10 18:58:34,159 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-10 18:58:34,160 - discord.client - INFO - logging in using static token
+2025-09-10 18:58:35,276 - integrations.discord_bot - INFO - Setting up Mental Health Bot...
+2025-09-10 18:58:36,063 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 9c0fa1db83d54cf605bca3cfce2fb30d).
+2025-09-10 18:58:38,077 - integrations.discord_bot - INFO - MentalHealthChatbot#7738 has connected to Discord!
+2025-09-10 18:58:38,077 - integrations.discord_bot - INFO - Bot is in 1 guilds
+2025-09-10 18:59:00,216 - core.chatbot - INFO - User input: saya lagi frustasi
+2025-09-10 18:59:00,216 - core.chatbot - INFO - Bot response: Saya ingin lebih memahami situasi Anda. Apa yang membuat ini penting bagi Anda?
+2025-09-10 18:59:12,332 - core.chatbot - INFO - User input: saya capek kuliah
+2025-09-10 18:59:12,334 - core.chatbot - INFO - Bot response: Kelelahan seringkali adalah sinyal bahwa kita perlu istirahat atau perubahan. Ceritakan lebih lanjut, apa yang membuat Anda merasa lelah?
+2025-09-10 18:59:21,267 - core.chatbot - INFO - User input: belajar
+2025-09-10 18:59:21,267 - core.chatbot - INFO - Bot response: Saya mendengar Anda. Bagaimana perasaan Anda tentang situasi ini?
+2025-09-10 19:00:14,890 - core.chatbot - INFO - User input: saya merasa stress
+2025-09-10 19:00:14,890 - core.chatbot - INFO - Bot response: Tekanan hidup memang bisa overwhelming. Mari kita identifikasi sumber stress dan cara mengatasinya step by step.
+2025-09-10 19:01:38,927 - core.chatbot - INFO - User input: bagaimana cara mengatasi stress
+2025-09-10 19:01:38,927 - core.chatbot - INFO - Bot response: Saya melihat ini adalah tema yang terus mengganggu Anda. Stress bisa mempengaruhi semua aspek hidup kita, termasuk hubungan. Bagaimana stress ini mempengaruhi interaksi Anda dengan orang lain?
+2025-09-10 19:10:48,263 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-10 19:10:48,264 - discord.client - INFO - logging in using static token
+2025-09-10 19:10:49,073 - integrations.discord_bot - INFO - Setting up Mental Health Bot...
+2025-09-10 19:10:49,860 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6f7aae1de81ab4bb651ddb1e608ab2f7).
+2025-09-10 19:10:51,858 - integrations.discord_bot - INFO - MentalHealthChatbot#7738 has connected to Discord!
+2025-09-10 19:10:51,858 - integrations.discord_bot - INFO - Bot is in 1 guilds
+2025-09-10 19:25:04,865 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-10 19:25:04,865 - discord.client - INFO - logging in using static token
+2025-09-10 19:25:05,936 - integrations.discord_bot - INFO - Setting up Mental Health Bot...
+2025-09-10 19:25:07,025 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 34203f54696d16844cd1db4484bdc8da).
+2025-09-10 19:25:09,048 - integrations.discord_bot - INFO - MentalHealthChatbot#7738 has connected to Discord!
+2025-09-10 19:25:09,049 - integrations.discord_bot - INFO - Bot is in 1 guilds
+2025-09-10 19:37:39,507 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-10 19:37:39,508 - discord.client - INFO - logging in using static token
+2025-09-10 19:37:40,315 - integrations.discord_bot - INFO - Setting up Mental Health Bot...
+2025-09-10 19:37:41,355 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e0a82e1488f36051d3e6888ebc3aaa7a).
+2025-09-10 19:37:43,373 - integrations.discord_bot - INFO - MentalHealthChatbot#7738 has connected to Discord!
+2025-09-10 19:37:43,374 - integrations.discord_bot - INFO - Bot is in 1 guilds
+2025-09-10 19:54:58,567 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-10 19:54:58,568 - discord.client - INFO - logging in using static token
+2025-09-10 19:54:59,619 - integrations.discord_bot - INFO - Setting up Mental Health Bot...
+2025-09-10 19:55:00,342 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d451a81ad19adc1ba183d16a7851765e).
+2025-09-10 19:55:02,365 - integrations.discord_bot - INFO - MentalHealthChatbot#7738 has connected to Discord!
+2025-09-10 19:55:02,365 - integrations.discord_bot - INFO - Bot is in 1 guilds
+2025-09-10 20:11:22,110 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-10 20:11:22,111 - discord.client - INFO - logging in using static token
+2025-09-10 20:11:24,432 - integrations.discord_bot - INFO - Setting up Mental Health Bot...
+2025-09-10 20:11:25,235 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d34964cb57b0d56c689803abe08e84dd).
+2025-09-10 20:11:27,244 - integrations.discord_bot - INFO - MentalHealthChatbot#7738 has connected to Discord!
+2025-09-10 20:11:27,244 - integrations.discord_bot - INFO - Bot is in 1 guilds
+2025-09-10 20:18:33,763 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-10 20:18:33,763 - discord.client - INFO - logging in using static token
+2025-09-10 20:18:34,692 - integrations.discord_bot - INFO - Setting up Mental Health Bot...
+2025-09-10 20:18:35,456 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ab78c0dd6a8cce06900f41d7b38f7715).
+2025-09-10 20:18:37,471 - integrations.discord_bot - INFO - MentalHealthChatbot#7738 has connected to Discord!
+2025-09-10 20:18:37,471 - integrations.discord_bot - INFO - Bot is in 1 guilds
+2025-09-10 20:25:28,023 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-10 20:25:28,024 - discord.client - INFO - logging in using static token
+2025-09-10 20:25:29,298 - integrations.discord_bot - INFO - Setting up Mental Health Bot...
+2025-09-10 20:25:31,698 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 304cfc4499887fdb625b1b4569b917c7).
+2025-09-10 20:25:33,713 - integrations.discord_bot - INFO - MentalHealthChatbot#7738 has connected to Discord!
+2025-09-10 20:25:33,713 - integrations.discord_bot - INFO - Bot is in 1 guilds
+2025-09-10 20:33:10,587 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-10 20:33:10,587 - discord.client - INFO - logging in using static token
+2025-09-10 20:33:12,411 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5ed2f95ab5bd771156f5666202456acf).
+2025-09-10 20:33:14,430 - integrations.discord_bot - INFO - MentalHealthChatbot#7738 telah terhubung ke Discord!
+2025-09-10 20:43:15,118 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-10 20:43:15,119 - discord.client - INFO - logging in using static token
+2025-09-10 20:43:17,134 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 17d2f2657507efcb806597b9a38d73e6).
+2025-09-10 20:43:19,145 - integrations.discord_bot - INFO - MentalHealthChatbot#7738 telah terhubung ke Discord!
+2025-09-10 20:55:17,678 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-10 20:55:17,678 - discord.client - INFO - logging in using static token
+2025-09-10 20:55:19,395 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 2cd207895a66645d511e2061a7a473b9).
+2025-09-10 20:55:21,418 - integrations.discord_bot - INFO - MentalHealthChatbot#7738 telah terhubung ke Discord!
+2025-09-10 21:18:42,735 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-10 21:18:42,737 - discord.client - INFO - logging in using static token
+2025-09-10 21:18:44,392 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 238547d027d87e3955474aec775e2d35).
+2025-09-10 21:18:46,410 - integrations.discord_bot - INFO - MentalHealthChatbot#7738 telah terhubung ke Discord!
